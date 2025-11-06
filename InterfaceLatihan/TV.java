@@ -1,5 +1,5 @@
 package InterfaceLatihan;
-public class TV extends AlatElektronik {
+public class TV extends AlatElektronik implements Audible {
     private String jenisLayar;
     private int volume;
 
