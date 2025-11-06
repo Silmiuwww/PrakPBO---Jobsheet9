@@ -34,4 +34,7 @@ public class AlatElektronik {
         this.merk = merk;
     }
 
+    public String getInfo() {
+        return merk + " | Warna: " + warna + " | Harga: Rp" + harga;
+    }
 }

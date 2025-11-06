@@ -14,4 +14,9 @@ public class Kulkas extends AlatElektronik {
     public int getJumlahPintu() {
         return jumlahPintu;
     }
+
+     @Override
+    public String getInfo() {
+        return "Kulkas " + jumlahPintu + " pintu - " + super.getInfo();
+    }
 }
