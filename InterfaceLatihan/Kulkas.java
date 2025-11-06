@@ -1,5 +1,4 @@
 package InterfaceLatihan;
-
 public class Kulkas extends AlatElektronik {
     private int jumlahPintu;
 
